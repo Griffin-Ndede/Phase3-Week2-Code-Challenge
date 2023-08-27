@@ -17,3 +17,14 @@ customer3 = customer()
 customer1.first_name = "Kinuthia"
 customer1.last_name = "Peter"
 customer1.family_name = "Otieno"
+
+# store the customer names in a list
+customer_list = [customer1, customer2]
+
+# printing the names of all the customers
+for customer in customer_list:
+    print(customer)
+
+# printing individual customer names
+print(customer1)
+print(customer2)

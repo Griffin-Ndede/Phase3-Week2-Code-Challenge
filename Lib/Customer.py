@@ -15,14 +15,14 @@ class customer:
 customer1 = customer("Griffin","Omondi", "Ndede")
 customer2 = customer("Gerald", "Ochieng", "Ndede")
 customer3 = customer("Enock", "Kamuta", "Harrison")
-customer7 = customer("", "philip", "mwabe")
-customer7 = customer("", "philip", "mwabe")
+customer4 = customer("Eunice", "Nyang'or", "Mwabe")
+customer5 = customer("Precious", "Manyara", "Nyaboke")
 
 
 # changing customer first, last and family name using dot notation
 customer1.first_name = "Kinuthia"
-customer2.last_name = "Peter"
-customer3.family_name = "Otieno"
+# customer2.last_name = "Peter"
+# customer3.family_name = "Otieno"
 
 # store the customer names in a list
 # customer_list = [customer1, customer2, customer7]
@@ -33,4 +33,4 @@ for customer in customer.customer_list:
 
 # printing individual customer names
 print(customer1)
-print(customer7)
+print(customer5)

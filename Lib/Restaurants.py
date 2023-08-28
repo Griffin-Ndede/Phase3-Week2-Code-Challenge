@@ -12,9 +12,12 @@ class restaurant:
     def __str__(self):
         return f"Restaurant Name: {self.restaurant_name}"
     
-restaurant1 = restaurant("Hotel Bilha")
-restaurant2 = restaurant("The mark")
+restaurant1 = restaurant("The Savory Spoon")
+restaurant2 = restaurant("Green Leaf Cafe")
 restaurant3 = restaurant("Villa Rosa Kempinski")
+restaurant4 = restaurant("Bella Italia Trattoria")
+restaurant5 = restaurant("Ocean's Edge Seafood Grill")
+
 
 
 # testing to see if the @property decorator works

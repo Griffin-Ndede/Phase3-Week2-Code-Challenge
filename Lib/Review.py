@@ -7,11 +7,12 @@ class Review:
         self.restaurant = restaurant
         self.rating = rating
         Review.all_reviews_list.append(self)
-
-    def get_restaurant(self):
+    
+# returns the restaurant object for that review
+    def restaurant(self):
         return self.restaurant
-
-    def get_customer(self):
+# returns the restaurant object for that given review
+    def customer(self):
         return self.customer
 
     def get_rating(self):

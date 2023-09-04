@@ -26,17 +26,17 @@ review5 = Review(customer3, restaurant3, 4.7)
 review6 = Review(customer4, restaurant4, 4.2)
 
 
-# display customers
-for customer in Customer.customer_list:
-    print(f"Customer '{customer.full_name} created.'")
+# # display customers
+# for customer in Customer.customer_list:
+#     print(f"Customer '{customer.full_name} created.'")
     
-# display restaurants
-for restaurant in Restaurant.restaurant_lists:
-    print(restaurant)
+# # display restaurants
+# for restaurant in Restaurant.restaurant_lists:
+#     print(restaurant)
 
-# Display reviews
-for review in Review.all_reviews():
-    print(review)
+# # Display reviews
+# for review in Review.all_reviews():
+#     print(review)
 
 # display the list of retaurants that a customer has reviewed
 for customer in Customer.customer_list:
@@ -44,8 +44,13 @@ for customer in Customer.customer_list:
     customer.restaurants()
     print(f"Number of reviews: {customer.num_reviews()}\n")
 
-# displaying the restaurants and the number of customers who reviewed it
-for restaurant in Restaurant.restaurant_lists:
-    print(f"Restaurant: {restaurant.restaurant_name}")
-    restaurant.reviews()
-    print(f"Number of customers who reviewed: {len(restaurant.customers())}\n")
+# # displaying the restaurants and the number of customers who reviewed it
+# for restaurant in Restaurant.restaurant_lists:
+#     print(f"Restaurant: {restaurant.restaurant_name}")
+#     restaurant.reviews()
+#     print(f"Number of customers who reviewed: {len(restaurant.customers())}\n")
+name = input("Enter your symptoms")
+
+# Querying db, and printing data according to the met condition
+
+print("Below are the results of possible disease")
